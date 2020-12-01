@@ -17,13 +17,15 @@
  # Project structure
       app 
        |
-       |_ _ __init__.py------> This file is an empty file but it tells the project folder with all its python files is a package.
+       |_ _ __init__.py------> This file is an empty file but it tells the project folder with all its python files is a 
+                               package.
        |
        |_ _ database.py --> In this file ,the database url is created and db connection is made.
        |
        |_ _ schemas.py -->This file includes pydantic models which is used for data validation.
        |
-       |_ _ crud.py -->CRUD stands for Create,Read,Update and Delete.This file contains reusable functions through which interaction with the data in db is performed.
+       |_ _ crud.py -->CRUD stands for Create,Read,Update and Delete.This file contains reusable functions through which 
+                       interaction with the data in db is performed.
        |
        |_ _ main.py --> This file is used for integrating all other python files.
        
@@ -36,12 +38,12 @@
      
    # Working
    
-    - Run the following command in the terminal to check how the app works
+   - Run the following command in the terminal to check how the app works
 
     ```
       uvicorn main:app --reload
     ```
-    - The server will be running at
+   - The server will be running at
  
     ```
        http://127.0.0.1:8000
