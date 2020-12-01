@@ -7,8 +7,8 @@
 
 
 # Description
-       This is a backend app created to perform certain basic CRUD operations which are specified below 
-       using mongodb(document based database where information is stored in key-value pairs) and fastapi.
+     This is a backend app created to perform certain basic CRUD operations which are specified below 
+     using mongodb(document based database where information is stored in key-value pairs) and fastapi.
        
 # Operations
       C - create a new book
@@ -18,15 +18,15 @@
  # Project structure
       app 
        |
-       |_ _ __init__.py------> This file is an empty file but it tells the project folder with all its python files is a 
-                               package.
+       |_ _ __init__.py------>This file is an empty file but it tells the project folder with all its 
+                              python files is a package.
        |
        |_ _ database.py --> In this file ,the database url is created and db connection is made.
        |
        |_ _ schemas.py -->This file includes pydantic models which is used for data validation.
        |
-       |_ _ crud.py -->CRUD stands for Create,Read,Update and Delete.This file contains reusable functions through which 
-                       interaction with the data in db is performed.
+       |_ _ crud.py -->CRUD stands for Create,Read,Update and Delete.This file contains reusable 
+                       functions through which interaction with the data in db is performed.
        |
        |_ _ main.py --> This file is used for integrating all other python files.
        
@@ -67,35 +67,35 @@
    
    # swagger UI ---> Retrieve all the books
    
-   ![Alt Text]((https://github.com/heera0410/Dummy/blob/master/app/screenshots/retrieve_all1.png)
+   ![Alt Text](https://github.com/heera0410/Dummy/blob/master/app/screenshots/retrieve_all1.png)
    
    # Atlas Dashboard --> Retrieve all the books
    
-   ![Alt Text]((https://github.com/heera0410/Dummy/blob/master/app/screenshots/retrieve_all.png)
+   ![Alt Text](https://github.com/heera0410/Dummy/blob/master/app/screenshots/retrieve_all.png)
    
    # swagger UI ---> Retrieve book by ID
    
-   ![Alt Text]((https://github.com/heera0410/Dummy/blob/master/app/screenshots/retrieve_by_id.png)
+   ![Alt Text](https://github.com/heera0410/Dummy/blob/master/app/screenshots/retrieve_by_id.png)
    
    # Atlas Dashboard --> Retrieve book by ID
    
-   ![Alt Text]((https://github.com/heera0410/Dummy/blob/master/app/screenshots/retrieve_by_id1.png)
+   ![Alt Text](https://github.com/heera0410/Dummy/blob/master/app/screenshots/retrieve_by_id1.png)
    
    # swagger UI ---> Update book by ID
    
-   ![Alt Text]((https://github.com/heera0410/Dummy/blob/master/app/screenshots/update.png)
+   ![Alt Text](https://github.com/heera0410/Dummy/blob/master/app/screenshots/update.png)
    
    # Atlas Dashboard --> Update book by ID
    
-   ![Alt Text]((https://github.com/heera0410/Dummy/blob/master/app/screenshots/update1.png)
+   ![Alt Text](https://github.com/heera0410/Dummy/blob/master/app/screenshots/update1.png)
    
    # swagger UI ---> Delete book by ID
    
-   ![Alt Text]((https://github.com/heera0410/Dummy/blob/master/app/screenshots/delete.png)
+   ![Alt Text](https://github.com/heera0410/Dummy/blob/master/app/screenshots/delete.png)
    
    # Atlas Dashboard --> Delete book by ID
    
-   ![Alt Text]((https://github.com/heera0410/Dummy/blob/master/app/screenshots/delete1.png)
+   ![Alt Text](https://github.com/heera0410/Dummy/blob/master/app/screenshots/delete1.png)
    
    
    
