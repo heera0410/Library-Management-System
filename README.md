@@ -1,9 +1,9 @@
 ## LIBRARY MANAGEMENT SYSTEM
 
-[![OpenFaaS](https://img.shields.io/badge/Database-Mongodb-darkblue.svg)](https://www.openfaas.com)
+[![OpenFaaS](https://img.shields.io/badge/Database-MongoDB-darkblue.svg)](https://www.openfaas.com)
 [![OpenFaaS](https://img.shields.io/badge/API-FastAPI-darkgreen.svg)](https://www.openfaas.com)
 [![OpenFaaS](https://img.shields.io/badge/Language-Python-purple.svg)](https://www.openfaas.com)
-[![OpenFaaS](https://img.shields.io/badge/Cloud-MongodbAtlas-brown.svg)](https://www.openfaas.com)
+[![OpenFaaS](https://img.shields.io/badge/Cloud-MongoDBAtlas-brown.svg)](https://www.openfaas.com)
 
 
 # Description
@@ -55,47 +55,47 @@
    
    # Endpoints
    
-   ![Alt Text](https://github.com/heera0410/Dummy/blob/master/app/screenshots/endpoints.png)
+   ![Alt Text](https://github.com/heera0410/Library-Management-System/blob/master/app/screenshots/endpoints.png)
    
    # swagger UI --> Post
    
-   ![Alt Text](https://github.com/heera0410/Dummy/blob/master/app/screenshots/post.png)
+   ![Alt Text](https://github.com/heera0410/Library-Management-System/blob/master/app/screenshots/post.png)
  
    # Atlas Dashboard -->Post
    
-   ![Alt Text](https://github.com/heera0410/Dummy/blob/master/app/screenshots/post1.png)
+   ![Alt Text](https://github.com/heera0410/Library-Management-System/blob/master/app/screenshots/post1.png)
    
    # swagger UI ---> Retrieve all the books
    
-   ![Alt Text](https://github.com/heera0410/Dummy/blob/master/app/screenshots/retrieve_all1.png)
+   ![Alt Text](https://github.com/heera0410/Library-Management-System/blob/master/app/screenshots/retrieve_all1.png)
    
    # Atlas Dashboard --> Retrieve all the books
    
-   ![Alt Text](https://github.com/heera0410/Dummy/blob/master/app/screenshots/retrieve_all.png)
+   ![Alt Text](https://github.com/heera0410/Library-Management-System/blob/master/app/screenshots/retrieve_all.png)
    
    # swagger UI ---> Retrieve book by ID
    
-   ![Alt Text](https://github.com/heera0410/Dummy/blob/master/app/screenshots/retrieve_by_id.png)
+   ![Alt Text](https://github.com/heera0410/Library-Management-System/blob/master/app/screenshots/retrieve_by_id.png)
    
    # Atlas Dashboard --> Retrieve book by ID
    
-   ![Alt Text](https://github.com/heera0410/Dummy/blob/master/app/screenshots/retrieve_by_id1.png)
+   ![Alt Text](https://github.com/heera0410/Library-Management-System/blob/master/app/screenshots/retrieve_by_id1.png)
    
    # swagger UI ---> Update book by ID
    
-   ![Alt Text](https://github.com/heera0410/Dummy/blob/master/app/screenshots/update.png)
+   ![Alt Text](https://github.com/heera0410/Library-Management-System/blob/master/app/screenshots/update.png)
    
    # Atlas Dashboard --> Update book by ID
    
-   ![Alt Text](https://github.com/heera0410/Dummy/blob/master/app/screenshots/update1.png)
+   ![Alt Text](https://github.com/heera0410/Library-Management-System/blob/master/app/screenshots/update1.png)
    
    # swagger UI ---> Delete book by ID
    
-   ![Alt Text](https://github.com/heera0410/Dummy/blob/master/app/screenshots/delete.png)
+   ![Alt Text](https://github.com/heera0410/Library-Management-System/blob/master/app/screenshots/delete.png)
    
    # Atlas Dashboard --> Delete book by ID
    
-   ![Alt Text](https://github.com/heera0410/Dummy/blob/master/app/screenshots/delete1.png)
+   ![Alt Text](https://github.com/heera0410/Library-Management-System/blob/master/app/screenshots/delete1.png)
    
    
    
