@@ -40,14 +40,14 @@
    
    - Run the following command in the terminal to check how the app works
 
-    ```
-      uvicorn main:app --reload
-    ```
+      ```
+          uvicorn main:app --reload
+      ```
    - The server will be running at
  
-    ```
-       http://127.0.0.1:8000
-    ```
+      ```
+            http://127.0.0.1:8000
+      ```
        
    
        
