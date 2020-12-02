@@ -7,13 +7,14 @@
 
 
 # Description
-       This is a backend app for library management system created using mongodb and fastapi.
+       This is a backend app created to perform certain basic CRUD operations which are specified below 
+       using mongodb(document based database where information is stored in key-value pairs) and fastapi.
        
 # Operations
-       C - create a new book
-       R - Get books,get book by id
-       U - update info of the book by id ( update info like user who borrowed, his/her contact info etc.)
-       D - delete book by id
+      C - create a new book
+      R - Get books,get book by id
+      U - update info of the book by id ( update info like user who borrowed, his/her contact info etc.)
+      D - delete book by id
  # Project structure
       app 
        |
@@ -48,6 +49,68 @@
       ```
             http://127.0.0.1:8000
       ```
+   - Create an account,create free tier cluster,add user and whitelist IP address to connect mongodb atlas with your application.
+   
+   # Results 
+   
+   # Endpoints
+   
+   ![Alt Text](https://github.com/heera0410/Dummy/blob/master/app/screenshots/endpoints.png)
+   
+   # swagger UI --> Post
+   
+   ![Alt Text](https://github.com/heera0410/Dummy/blob/master/app/screenshots/post.png)
+ 
+   # Atlas Dashboard -->Post
+   
+   ![Alt Text](https://github.com/heera0410/Dummy/blob/master/app/screenshots/post1.png)
+   
+   # swagger UI ---> Retrieve all the books
+   
+   ![Alt Text]((https://github.com/heera0410/Dummy/blob/master/app/screenshots/retrieve_all1.png)
+   
+   # Atlas Dashboard --> Retrieve all the books
+   
+   ![Alt Text]((https://github.com/heera0410/Dummy/blob/master/app/screenshots/retrieve_all.png)
+   
+   # swagger UI ---> Retrieve book by ID
+   
+   ![Alt Text]((https://github.com/heera0410/Dummy/blob/master/app/screenshots/retrieve_by_id.png)
+   
+   # Atlas Dashboard --> Retrieve book by ID
+   
+   ![Alt Text]((https://github.com/heera0410/Dummy/blob/master/app/screenshots/retrieve_by_id1.png)
+   
+   # swagger UI ---> Update book by ID
+   
+   ![Alt Text]((https://github.com/heera0410/Dummy/blob/master/app/screenshots/update.png)
+   
+   # Atlas Dashboard --> Update book by ID
+   
+   ![Alt Text]((https://github.com/heera0410/Dummy/blob/master/app/screenshots/update1.png)
+   
+   # swagger UI ---> Delete book by ID
+   
+   ![Alt Text]((https://github.com/heera0410/Dummy/blob/master/app/screenshots/delete.png)
+   
+   # Atlas Dashboard --> Delete book by ID
+   
+   ![Alt Text]((https://github.com/heera0410/Dummy/blob/master/app/screenshots/delete1.png)
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
        
    
        
