@@ -18,7 +18,7 @@ from schemas import (
 router = APIRouter()
 
 @router.post("/", response_description="Book data added into the database")
-async def add_book_data(book: LibrarySchema = Body(...)):
+async def add_new_book(book: LibrarySchema = Body(...)):
     book= jsonable_encoder(book)
     new_book = await add_book(book)
     return ResponseModel(new_book, "Book added successfully.")
@@ -32,14 +32,14 @@ async def get_books():
 
 
 @router.get("/{id}", response_description="Book data retrieved")
-async def get_book_data(id):
+async def get_book_by_id(id):
     book = await retrieve_book(id)
     if book:
         return ResponseModel(book, "book data retrieved successfully")
     return ErrorResponseModel("An error occurred.", 404, "book doesn't exist.")
 
 @router.put("/{id}")
-async def update_book_data(id: str, req: UpdateLibraryModel = Body(...)):
+async def update_book_by_id(id: str, req: UpdateLibraryModel = Body(...)):
     req = {k: v for k, v in req.dict().items() if v is not None}
     updated_book = await update_book(id, req)
     if updated_book:
@@ -54,7 +54,7 @@ async def update_book_data(id: str, req: UpdateLibraryModel = Body(...)):
     )
 
 @router.delete("/{id}", response_description="book data deleted from the database")
-async def delete_book_data(id: str):
+async def delete_book_by_id(id: str):
     deleted_book = await delete_book(id)
     if deleted_book:
         return ResponseModel(
